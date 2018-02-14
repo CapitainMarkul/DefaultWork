@@ -5,7 +5,7 @@
 
     </data>
 
-    <LinearLayout
+    <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -28,8 +28,17 @@
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:layout_weight="1"/>
 
-    </LinearLayout>
+        <include
+            android:id="@+id/include_bottom_navigation"
+            layout="@layout/bottom_navigation_panel"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </android.support.design.widget.CoordinatorLayout>
 
 </layout>
