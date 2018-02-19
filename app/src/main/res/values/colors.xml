@@ -3,4 +3,27 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- Common color -->
+    <color name="white_color">#ffffff</color>
+
+    <!-- Top buttons color -->
+    <color name="color_top_btn_active">#333333</color>
+    <color name="color_top_btn_inactive">#E0E0E0</color>
+
+    <!-- Bottom navigation panel -->
+    <color name="color_my_person_shape">#E0E0E0</color>
+
+    <!-- Event card -->
+    <color name="color_event_title">#333333</color>
+    <color name="color_event_coordinate">#9EA4AF</color>
+    <color name="color_event_time">#9EA4AF</color>
+    <color name="color_event_category">#E0E0E0</color>
+    <color name="color_event_olg">#E0E0E0</color>
+
+    <!-- EventType colors -->
+    <color name="color_no_fun_event_type">#FF5555</color>
+    <color name="color_fun_event_type">#2ED573</color>
+    <color name="color_middle_fun_event_type">#FF55ff</color>
+
 </resources>

@@ -13,14 +13,14 @@
         android:orientation="horizontal"
         android:paddingEnd="10dp"
         android:paddingStart="40dp"
-        tools:background="#44f0330f"
+        android:background="#44f0330f"
         tools:ignore="RtlSymmetry">
 
         <ImageView
             android:id="@+id/img_person_photo"
             android:layout_width="@dimen/person_photo_size"
             android:layout_height="@dimen/person_photo_size"
-            android:background="@drawable/person_photo_background"/>
+            android:background="@drawable/person_photo_background_temp"/>
 
         <!--todo приделать стиль-->
 

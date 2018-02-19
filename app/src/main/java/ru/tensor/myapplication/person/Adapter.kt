@@ -9,7 +9,7 @@ import ru.tensor.myapplication.databinding.ItemPersonListBinding
 import ru.tensor.myapplication.models.Person
 
 class Adapter : RecyclerView.Adapter<Adapter.ViewHolder>() {
-    var persons: ArrayList<Person> = java.util.ArrayList()
+    var persons: MutableList<Person> = java.util.ArrayList()
 
     public fun setItems(persons: ArrayList<Person>) {
         this.persons.clear()
@@ -33,7 +33,7 @@ class Adapter : RecyclerView.Adapter<Adapter.ViewHolder>() {
     class ViewHolder constructor(val binding: ItemPersonListBinding) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(person: Person) = with(itemView) {
-            val text: String = person.name + " " + person.secondName
+            val text = "${person.name} ${person.secondName}"
             binding.txtPersonName.text = text
         }
     }
