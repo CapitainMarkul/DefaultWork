@@ -1,4 +1,4 @@
-package ru.tensor.myapplication.events
+package ru.tensor.myapplication.old.events
 
 import android.databinding.DataBindingUtil
 import android.os.Bundle
@@ -7,7 +7,6 @@ import android.support.v4.app.FragmentManager
 import android.support.v7.app.AppCompatActivity
 import ru.tensor.myapplication.R
 import ru.tensor.myapplication.databinding.ActivityEventsBinding
-import ru.tensor.myapplication.person.PersonFragment
 
 class EventActivity : AppCompatActivity() {
 

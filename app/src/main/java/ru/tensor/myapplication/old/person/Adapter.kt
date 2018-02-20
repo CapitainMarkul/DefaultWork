@@ -1,4 +1,4 @@
-package ru.tensor.myapplication.person
+package ru.tensor.myapplication.old.person
 
 import android.databinding.DataBindingUtil
 import android.support.v7.widget.RecyclerView
@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import ru.tensor.myapplication.R
 import ru.tensor.myapplication.databinding.ItemPersonListBinding
-import ru.tensor.myapplication.models.Person
+import ru.tensor.myapplication.old.models.Person
 
 class Adapter : RecyclerView.Adapter<Adapter.ViewHolder>() {
     var persons: MutableList<Person> = java.util.ArrayList()

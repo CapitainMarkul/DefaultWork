@@ -1,4 +1,4 @@
-package ru.tensor.myapplication.models
+package ru.tensor.myapplication.old.models
 
 enum class EventsType(val eventsTypeText: String) {
     FUN("FUN"),

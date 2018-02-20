@@ -1,4 +1,4 @@
-package ru.tensor.myapplication.models
+package ru.tensor.myapplication.old.models
 
 //todo необходимо доделывать
 data class Event(

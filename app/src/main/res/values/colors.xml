@@ -26,4 +26,12 @@
     <color name="color_fun_event_type">#2ED573</color>
     <color name="color_middle_fun_event_type">#FF55ff</color>
 
+    <!--_________-->
+    <!-- Activity create event -->
+    <color name="color_text_btn_next">#2ED573</color>
+    <color name="color_top_divider">#F9F9F9</color>
+    <color name="color_edit_txt_background">#F9F9F9</color>
+    <color name="color_txt_help">#9EA4AF</color>
+    <color name="color_old_checked">#2ED573</color>
+    <color name="color_old_unchecked">#E0E0E0</color>
 </resources>

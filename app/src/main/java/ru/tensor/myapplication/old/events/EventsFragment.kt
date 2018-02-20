@@ -1,4 +1,4 @@
-package ru.tensor.myapplication.events
+package ru.tensor.myapplication.old.events
 
 import android.databinding.DataBindingUtil
 import android.os.Bundle
@@ -10,8 +10,8 @@ import android.view.View
 import android.view.ViewGroup
 import ru.tensor.myapplication.R
 import ru.tensor.myapplication.databinding.FragmentEventsListBinding
-import ru.tensor.myapplication.models.Event
-import ru.tensor.myapplication.models.EventsType
+import ru.tensor.myapplication.old.models.Event
+import ru.tensor.myapplication.old.models.EventsType
 import java.util.*
 
 class EventsFragment : Fragment() {

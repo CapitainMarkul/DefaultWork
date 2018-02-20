@@ -1,4 +1,4 @@
-package ru.tensor.myapplication.events
+package ru.tensor.myapplication.old.events
 
 import android.content.Context
 import android.databinding.BindingAdapter
@@ -7,8 +7,8 @@ import android.support.v4.content.ContextCompat
 import android.view.View
 import android.widget.TextView
 import ru.tensor.myapplication.R
-import ru.tensor.myapplication.models.Event
-import ru.tensor.myapplication.models.EventsType
+import ru.tensor.myapplication.old.models.Event
+import ru.tensor.myapplication.old.models.EventsType
 
 const val STROKE_SIZE = 6
 

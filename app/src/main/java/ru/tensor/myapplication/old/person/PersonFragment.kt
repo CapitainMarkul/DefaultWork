@@ -1,4 +1,4 @@
-package ru.tensor.myapplication.person
+package ru.tensor.myapplication.old.person
 
 import android.databinding.DataBindingUtil
 import android.os.Bundle
@@ -9,7 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import ru.tensor.myapplication.R
 import ru.tensor.myapplication.databinding.FragmentPersonListBinding
-import ru.tensor.myapplication.models.Person
+import ru.tensor.myapplication.old.models.Person
 
 class PersonFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package ru.tensor.myapplication.events
+package ru.tensor.myapplication.old.events
 
 import android.databinding.DataBindingUtil
 import android.support.v7.widget.RecyclerView
@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import ru.tensor.myapplication.R
 import ru.tensor.myapplication.databinding.ItemEventCardBinding
-import ru.tensor.myapplication.models.Event
+import ru.tensor.myapplication.old.models.Event
 import java.util.ArrayList
 
 class EventsAdapter : RecyclerView.Adapter<EventsAdapter.ViewHolder>() {
